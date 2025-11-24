@@ -51,7 +51,7 @@ for i in range(1,N+1):
         continue
     print(i,end=" ")
 
-print ("---CÂU 6---")
+print ("---CÂU 8---")
 max=-1000
 min=1000
 i=1
@@ -67,19 +67,7 @@ while(i<=n):
         print ("Lỗi kiểu dữ liệu")
 print(f"Số lớn nhất:{max}")
 print(f"Số nhỏ nhất:{min}")
-print ("---CÂU 8---")
-while(i<=n):
-    try:
-        x=int(input(f"Nhập số thứ {i}:"))
-        i+=1
-        if x > max:
-            max=x
-        if x < min:
-            min=x
-    except:
-        print ("Lỗi kiểu dữ liệu")
-print(f"Số lớn nhất:{max}")
-print(f"Số nhỏ nhất:{min}")
+
 print ("---CÂU 9---")
 so=int(input(f"Nhập số:"))
 dem=0
