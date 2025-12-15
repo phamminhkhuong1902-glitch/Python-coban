@@ -49,12 +49,12 @@ while True:
         tiennuoc=x*7000
     elif x<=20:
         tiennuoc=7000*10+(x-10)*9000
-    
+
 tiennuoc=7000*10+9000*10+(x-20)*12000
 phi=tiennuoc*0.05
 tongtien=int(tiennuoc+phi)
 print (f"Tổng tiền nước: {tongtien}")
-
+print("--Câu 3--")
 diem=0
 for i in range(1,7):
     print("Lượt",i)
