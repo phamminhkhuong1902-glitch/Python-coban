@@ -44,13 +44,14 @@ while True:
     except ValueError:
         print ("Nhập sai kiểu dư liệu")
 
-    tiennuoc=0
-    if x<=10:
-        tiennuoc=x*7000
-    elif x<=20:
-        tiennuoc=7000*10+(x-10)*9000
+tiennuoc=0
+if x<=10:
+    tiennuoc=x*7000
+elif x<=20:
+    tiennuoc=7000*10+(x-10)*9000
+else:
+    tiennuoc=7000*10+9000*10+(x-20)*12000
 
-tiennuoc=7000*10+9000*10+(x-20)*12000
 phi=tiennuoc*0.05
 tongtien=int(tiennuoc+phi)
 print (f"Tổng tiền nước: {tongtien}")
