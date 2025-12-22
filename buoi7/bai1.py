@@ -65,11 +65,12 @@ for i in range(1,7):
         print("Tìm thấy kho báu ")
         print (f"cộng {diemcong} điểm")
     else:
-        diem=diem-2
-        
+        diemtru=random.randint(5,10)
+        diem-=diemtru
+        print(f"Không tìm thấy trừ {diemtru} điểm")
         if(diem<=0):
             diem=0
-            print("Không tìm thấy trừ 2 điểm")
+           
     print(f"Tổng điểm:{diem}")
     if diem>=80:
         print("Thắng")
