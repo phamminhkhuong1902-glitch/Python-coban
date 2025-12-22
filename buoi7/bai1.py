@@ -39,7 +39,7 @@ print("--Câu 2--")
 while True:
     try:
         x=float(input("Nhập số m nước:"))
-        if x>=0:
+        if x>0:
             break
     except ValueError:
         print ("Nhập sai kiểu dư liệu")
